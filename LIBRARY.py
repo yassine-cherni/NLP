@@ -6,3 +6,8 @@ import random                              # pseudo-random number generator
 nltk.download('twitter_samples')           # downloads sample twitter dataset.
 all_positive_tweets = twitter_samples.strings('positive_tweets.json')
 all_negative_tweets = twitter_samples.strings('negative_tweets.json')                          # select the set of positive and negative tweets
+print('Number of positive tweets: ', len(all_positive_tweets))
+print('Number of negative tweets: ', len(all_negative_tweets))
+
+print('\nThe type of all_positive_tweets is: ', type(all_positive_tweets))
+print('The type of a tweet entry is: ', type(all_negative_tweets[0]))
