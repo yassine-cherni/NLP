@@ -18,7 +18,6 @@ fig = plt.figure(figsize=(5, 5))     # Declare a figure with a custom size
 labels = 'Positives', 'Negative'     # labels for the two classes
 
 sizes = [len(all_positive_tweets), len(all_negative_tweets)] # Sizes for each slide
-len
 
 plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90) # Declare pie chart, where the slices will be ordered and plotted counter-clockwise
 
