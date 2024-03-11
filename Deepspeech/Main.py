@@ -7,7 +7,7 @@ import pyaudio
 import wave
 import webrtcvad
 from halo import Halo
-from scipy import signal
+from scipy import sig
 
 logging.basicConfig(level=20)
 
