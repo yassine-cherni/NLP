@@ -1,4 +1,4 @@
-import time, logging
+import time, loggi
 from datetime import datetime
 import threading, collections, queue, os, os.path
 import deepspeech
