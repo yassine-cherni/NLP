@@ -6,7 +6,6 @@ import time
 import os
 import tensorflow
 import numpy as np
-import
 nltk.download('twitter_samples')           # downloads sample twitter dataset.
 all_positive_tweets = twitter_samples.strings('positive_tweets.json')
 all_negative_tweets = twitter_samples.strings('negative_tweets.json')                          # select the set of positive and negative tweets
