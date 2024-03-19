@@ -8,7 +8,7 @@ import wave
 import webrtcvad
 from halo import Halo
 from scipy import signal
-import torch
+import torch v
 logging.basicConfig(level=20)
 
 class Audio(object):
