@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt            # library for visualization
 import random    # pseudo-random number generator
 import time
 import os
-import tensor
+import tensorflow 
 
 
 nltk.download('twitter_samples')           # downloads sample twitter dataset.
