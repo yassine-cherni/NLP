@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt            # library for visualization
 import random    # pseudo-random number generator
 import time
 import os
-import tensorflow 
+import tensorflow as tf
 import Speech_Recognition
 import vosk
-import pandas
+import pandas as pd
 
 
 nltk.download('twitter_samples')           # downloads sample twitter dataset.
