@@ -16,7 +16,7 @@ def sampled_audiofile(audiofile):
     list_audiosamples_for_one_file = []
     y,sr = librosa.load(audiofile,sr=44100)
     list_audiosamples_for_one_file.append(y)
-    return list_audiosamples_for_one_
+    return list_audiosamples_for_one_file
 
 for path in pathlist:
     wavnames += pathlist
