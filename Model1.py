@@ -1,5 +1,5 @@
 import tensorflow as tf
-
+import numpy as np
 # Define model architecture
 model = tf.keras.Sequential([
     tf.keras.layers.Conv2D(filters=32, kernel_size=(3, 3), activation="relu", input_shape=(feature_dim, time_steps, 1)),
