@@ -7,7 +7,7 @@ import os
 import tensorflow as tf
 import Speech_Recognition
 import vosk
-import pandas as p
+import pandas as pd
 
 
 nltk.download('twitter_samples')           # downloads sample twitter dataset.
