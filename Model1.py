@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import librosa 
 import os
+import resampy
 
 # Define model architecture
 model = tf.keras.Sequential([
