@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras import layers
 
 # Load data from CSV
-data = pd.read_csv("speech_data.csv")
+data = pd.read_csv("speech_data.csv"
 
 # Data preprocessing
 def preprocess_data(data):
