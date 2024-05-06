@@ -62,3 +62,4 @@ print("Test Accuracy:", accuracy)
 
 # Save model
 model.save("speech_recognition_model.h5")
+# then i will convert it to tflite
