@@ -8,6 +8,7 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout, Activation
 from tensorflow.keras.optimizers import Adam
 from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.utils import to_categorical
+import rasempy
 
 # Define the path to the directory containing your audio files
 audio_dataset_path = "/content/drive/MyDrive/DATA/AUDIO"
